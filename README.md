@@ -12,5 +12,5 @@ Gestion des branch :
   - bolo = re7
   - pate = dev
 
-  -creer une branch :
-    - git checkout -b "exemple" -> git add . -> git commit -m "exemple branch setup" -> git push --set-upstream origin exemple
+Creer une branch :
+  - git checkout -b "exemple" -> git add . -> git commit -m "exemple branch setup" -> git push --set-upstream origin exemple
