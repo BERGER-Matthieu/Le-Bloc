@@ -1,20 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import LoginRegister from './src/screens/auth/loginRegister';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>This is Pate branch</Text>
-      <StatusBar style="auto" />
+    <View>
+      <LoginRegister/>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
